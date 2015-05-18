@@ -8,17 +8,18 @@
 		<script id="sap-ui-bootstrap"
 	        src="bower_components/openui5-sap.ui.core/resources/sap-ui-core.js"
 	        data-sap-ui-theme="sap_bluecrystal"
-			data-sap-ui-xx-bindingSyntax="complex"
+	        data-sap-ui-xx-bindingSyntax="complex"
 	        data-sap-ui-libs="sap.m"
 			data-sap-ui-resourceroots='{
 				"sap.m": "bower_components/openui5-sap.m/resources/sap/m",
-				"sap.m.themes.sap_bluecrystal": "bower_components/openui5-themelib_sap_bluecrystal/resources/sap/m/themes/sap_bluecrystal",
 				"com.tm": "./"
 			}'></script>
 	</head>
 	<body id="content" class="sapUiBody" role="application">
 		<script>
 			sap.ui.getCore().attachInit(function () {
+
+
 				new sap.m.Shell({
 					app: new sap.ui.core.ComponentContainer({
 						name: 'com.tm',
