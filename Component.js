@@ -7,7 +7,9 @@ sap.ui.define(
 		'use strict';
 
 		var Component = UIComponent.extend('com.tm.Component', {
-			metadata: 'json'
+			metadata: {
+				manifiest: "json"
+			}
 		});
 
 		return Component;
