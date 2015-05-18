@@ -1,0 +1,31 @@
+{
+  "name": "openui5-themelib_sap_goldreflection",
+  "description": "OpenUI5 Theme Library Gold Reflection",
+  "version": "1.28.5",
+  "license": "Apache-2.0",
+  "ignore": [],
+  "keywords": [
+    "openui5"
+  ],
+  "authors": [
+    "SAP SE <*@sap.com>"
+  ],
+  "homepage": "http://openui5.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SAP/openui5.git"
+  },
+  "dependencies": {
+    "openui5-sap.ui.core": "openui5/packaged-sap.ui.core#1.28.5"
+  },
+  "_release": "1.28.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.28.5",
+    "commit": "4eaab4f7ae8d01c970243b269d2c3fd7671836ec"
+  },
+  "_source": "git://github.com/openui5/packaged-themelib_sap_goldreflection.git",
+  "_target": "~1.28.5",
+  "_originalSource": "openui5/packaged-themelib_sap_goldreflection",
+  "_direct": true
+}
