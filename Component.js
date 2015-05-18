@@ -6,7 +6,7 @@ sap.ui.define(
 	function (UIComponent) {
 		'use strict';
 
-		var Component = UIComponent.extend('com.tm.Component', {
+		var Component = UIComponent.extend('io.github.tmhew84.Component', {
 			metadata: {
 				manifiest: "json"
 			}

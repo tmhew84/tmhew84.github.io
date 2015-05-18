@@ -13,17 +13,15 @@
 			data-sap-ui-resourceroots='{
 				"sap.m": "bower_components/openui5-sap.m/resources/sap/m",
 				"sap.m.themes.sap_bluecrystal": "bower_components/openui5-themelib_sap_bluecrystal/resources/sap/m/themes/sap_bluecrystal",
-				"com.tm": "./"
+				"io.github.tmhew84": "./"
 			}'></script>
 	</head>
 	<body id="content" class="sapUiBody" role="application">
 		<script>
 			sap.ui.getCore().attachInit(function () {
-
-
 				new sap.m.Shell({
 					app: new sap.ui.core.ComponentContainer({
-						name: 'com.tm',
+						name: 'io.github.tmhew84',
 						height: '100%'
 					})
 				}).placeAt('content');

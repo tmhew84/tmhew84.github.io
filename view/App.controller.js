@@ -6,7 +6,7 @@ sap.ui.define(
 	function (CoreController) {
 		'use strict';
 
-		var Controller = CoreController.extend('com.tm.view.App');
+		var Controller = CoreController.extend('io.github.tmhew84.view.App');
 
 		return Controller;
 	}
