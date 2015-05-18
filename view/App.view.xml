@@ -1,0 +1,12 @@
+<mvc:View
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns:m="sap.m"
+    controllerName="com.tm.view.App"
+    height="100%"
+    width="100%"
+    displayBlock="true">
+
+    <m:App></m:App>
+</mvc:View>
