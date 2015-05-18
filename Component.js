@@ -12,6 +12,26 @@ sap.ui.define(
 			}
 		});
 
+		Component.prototype.init = function () {
+			UIComponent.prototype.init.apply(this, arguments);
+
+			this._startMockServers();
+		};
+
+		Component.prototype.destroy = function () {
+			this._stopMockServers();
+
+			UIComponent.prototype.destroy.apply(this, arguments);
+		};
+
+		Component.prototype._startMockServers = function () {
+			
+		};
+
+		Component.prototype._stopMockServers = function () {
+			
+		};
+
 		return Component;
 	}
 );
