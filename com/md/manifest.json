@@ -10,7 +10,7 @@
 
     "sap.ui5": {
         "rootView": {
-            "viewName": "",
+            "viewName": "com.md.view.App",
             "type": "XML"
         },
 
