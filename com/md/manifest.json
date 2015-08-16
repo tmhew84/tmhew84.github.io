@@ -25,10 +25,10 @@
         },
 
         "models": {
-            "i18n": {
+            "i18n.App": {
                 "type": "sap.ui.model.resource.ResourceModel",
     			"settings": {
-    				"bundleName": "com.md.i18n.Component"
+    				"bundleName": "com.md.i18n.App"
     			}
             }
         },
