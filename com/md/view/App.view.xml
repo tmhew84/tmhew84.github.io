@@ -7,6 +7,8 @@
     width="100%"
     displayBlock="true">
 
-    <paper:Button></paper:Button>
+    <paper:Button>
+        <span>This is a paper button</span>
+    </paper:Button>
 
 </mvc:View>

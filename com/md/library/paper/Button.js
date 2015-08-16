@@ -10,7 +10,13 @@ sap.ui.define(
 
         var CustomControl = Control.extend('com.md.library.paper.Button', {
             metadata: {
-                library: 'com.md.library.paper'
+                library: 'com.md.library.paper',
+
+                aggregations: {
+                    content: { type: 'sap.ui.core.Control', multiple: true, singularName: 'content' }
+                },
+
+                defaultAggregation: 'content'
             }
         });
 
