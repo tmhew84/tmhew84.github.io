@@ -12,25 +12,6 @@
         "rootView": {
             "viewName": "com.md.view.App",
             "type": "XML"
-        },
-
-        "routing": {
-            "config": {
-                "viewType": "XML",
-                "controlAggregation": "content",
-                "clearControlAggregation": true
-            },
-
-            "routes": {
-                "notFound": {
-                    "pattern": "{all*}",
-                    "target": [ "" ]
-                }
-            },
-
-            "targets": {
-
-            }
         }
     }
 }
