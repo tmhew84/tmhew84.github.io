@@ -2,10 +2,11 @@
     controllerName="com.md.controller.App"
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:mvc="sap.ui.core.mvc"
+    xmlns:paper="com.md.library.paper"
     height="100%"
     width="100%"
     displayBlock="true">
 
-    <div>test component app</div>
+    <paper:Button></paper:Button>
 
 </mvc:View>
