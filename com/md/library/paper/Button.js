@@ -21,5 +21,7 @@ sap.ui.define(
         });
 
         return CustomControl;
-    }
+    },
+
+    true
 );
