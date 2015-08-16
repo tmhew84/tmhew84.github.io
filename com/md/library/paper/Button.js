@@ -16,9 +16,17 @@ sap.ui.define(
                     content: { type: 'sap.ui.core.Control', multiple: true, singularName: 'content' }
                 },
 
-                defaultAggregation: 'content'
+                defaultAggregation: 'content',
+
+                events: {
+                    press: {}
+                }
             }
         });
+
+        CustomControl.prototype.ontap = function (oEvent) {
+            this.firePress();
+        };
 
         return CustomControl;
     },

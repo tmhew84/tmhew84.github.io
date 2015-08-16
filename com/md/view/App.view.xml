@@ -7,7 +7,7 @@
     width="100%"
     displayBlock="true">
 
-    <paper:Button>
+    <paper:Button press=".onButtonPressed">
         <span>This is a paper button</span>
     </paper:Button>
 
