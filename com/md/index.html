@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://openui5.hana.ondemand.com/1.30.4/resources/sap-ui-core.js"
+            id="sap-ui-bootstrap"
+            data-sap-ui-xx-bindingSyntax="complex"
+            data-sap-ui-preload="async"
+            data-sap-ui-theme="sap_bluecrystal"
+            data-sap-ui-libs="sap.m"
+            data-sap-ui-resourceroots='{
+                "com.md": "./"
+            }'>
+        </script>
+    </head>
+    <body id="content">
+        <script>
+            sap.ui.getCore().attachInit(function () {
+                new sap.ui.core.ComponentContainer({
+                    height: '100%',
+                    width: '100%',
+                    name: 'com.md'
+                }).placeAt('content');
+            });
+		</script>
+    </body>
+</html>

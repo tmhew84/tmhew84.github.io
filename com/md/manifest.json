@@ -1,0 +1,36 @@
+{
+    "sap.app": {
+        "id": "com.md.Component",
+        "type": "application"
+    },
+
+    "sap.ui": {
+        "technology": "UI5"
+    },
+
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "",
+            "type": "XML"
+        },
+
+        "routing": {
+            "config": {
+                "viewType": "XML",
+                "controlAggregation": "content",
+                "clearControlAggregation": true
+            },
+
+            "routes": {
+                "notFound": {
+                    "pattern": "{all*}",
+                    "target": [ "" ]
+                }
+            },
+
+            "targets": {
+
+            }
+        }
+    }
+}
