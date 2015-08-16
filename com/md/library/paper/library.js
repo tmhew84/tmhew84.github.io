@@ -21,7 +21,5 @@ sap.ui.define(
         sap.ui.getCore().initLibrary(oLibrary);
 
         return com.md.library.paper;
-    },
-
-    true
+    }
 );
