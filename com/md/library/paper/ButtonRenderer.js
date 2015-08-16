@@ -30,5 +30,7 @@ sap.ui.define(
         };
 
         return CustomRenderer;
-    }
+    },
+
+    true
 );
