@@ -13,7 +13,9 @@ sap.ui.define(
         oLibrary.interfaces = [];
         oLibrary.elements = [];
 
-        oLibrary.controls = [];
+        oLibrary.controls = [
+            'com.md.library.paper.Button'
+        ];
 
         oLibrary.types = [];
 

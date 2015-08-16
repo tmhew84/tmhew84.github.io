@@ -22,12 +22,10 @@ sap.ui.define(
         CustomRenderer._renderContent = function (oRm, oCustomControl) {
             oRm.write('<content');
             oRm.write('>');
-            
+
             oRm.write('</content>');
         };
 
         return CustomRenderer;
-    },
-
-    true
+    }
 );
