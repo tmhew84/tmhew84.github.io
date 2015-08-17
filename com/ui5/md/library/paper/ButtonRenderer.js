@@ -21,9 +21,10 @@ sap.ui.define(
         };
 
         CustomRenderer._renderContent = function (oRm, oCustomControl) {
-            oRm.write('<content>');
+            oRm.write('<content');
             oRm.addClass('mdPaperButton-content');
             oRm.writeClasses();
+            oRm.write('>');
 
             oCustomControl.getContent().forEach(function (oContent) {
                 oRm.renderControl(oContent);
