@@ -11,6 +11,7 @@ sap.ui.define(
         CustomRenderer.render = function (oRm, oCustomControl) {
             oRm.write('<span');
             oRm.writeControlData(oCustomControl);
+            oRm.addClass('mdPaperButton');
             oRm.writeClasses();
             oRm.write('>');
 
