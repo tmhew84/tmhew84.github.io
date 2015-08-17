@@ -12,3 +12,7 @@
     border-radius: 3px;
     cursor: pointer;
 }
+
+.mdPaperButton-content {
+    padding: 0.7em 0.57em
+}
