@@ -8,7 +8,7 @@ sap.ui.define(
     function (Controller) {
         'use strict';
 
-        var CustomController = Controller.extend('com.md.controller.App');
+        var CustomController = Controller.extend('com.ui5.md.controller.App');
 
         CustomController.prototype.onButtonPressed = function (oEvent) {
             alert('button pressed');

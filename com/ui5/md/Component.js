@@ -8,7 +8,7 @@ sap.ui.define(
     function (UIComponent) {
         'use strict';
 
-        var CustomComponent = UIComponent.extend('com.md.Component', {
+        var CustomComponent = UIComponent.extend('com.ui5.md.Component', {
             metadata: {
                 manifest: 'json'
             }

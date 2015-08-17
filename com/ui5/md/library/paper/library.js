@@ -7,14 +7,14 @@ sap.ui.define(
         'use strict';
 
         var oLibrary = {
-            name: 'com.md.library.paper'
+            name: 'com.ui5.md.library.paper'
         };
 
         oLibrary.interfaces = [];
         oLibrary.elements = [];
 
         oLibrary.controls = [
-            'com.md.library.paper.Button'
+            'com.ui5.md.library.paper.Button'
         ];
 
         oLibrary.types = [];
@@ -22,6 +22,6 @@ sap.ui.define(
 
         sap.ui.getCore().initLibrary(oLibrary);
 
-        return com.md.library.paper;
+        return com.ui5.md.library.paper;
     }
 );

@@ -1,6 +1,6 @@
 {
     "sap.app": {
-        "id": "com.md.Component",
+        "id": "com.ui5.md.Component",
         "type": "application",
         "i18n": "i18n/Component.properties",
         "title": "{{TITLE}}",
@@ -14,13 +14,13 @@
     "sap.ui5": {
         "dependencies": {
             "libs": {
-                "com.md.library.paper": {}
+                "com.ui5.md.library.paper": {}
             }
         },
 
         "resources": {
             "css": [
-                { "uri": "../../bower_components/normalize.css/normalize.css" }
+                { "uri": "../../../bower_components/normalize.css/normalize.css" }
             ]
         },
 
@@ -28,13 +28,13 @@
             "i18n.App": {
                 "type": "sap.ui.model.resource.ResourceModel",
     			"settings": {
-    				"bundleName": "com.md.i18n.App"
+    				"bundleName": "com.ui5.md.i18n.App"
     			}
             }
         },
 
         "rootView": {
-            "viewName": "com.md.view.App",
+            "viewName": "com.ui5.md.view.App",
             "type": "XML"
         },
 

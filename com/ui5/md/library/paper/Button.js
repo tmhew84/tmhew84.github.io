@@ -8,9 +8,9 @@ sap.ui.define(
     function (Control) {
         'use strict';
 
-        var CustomControl = Control.extend('com.md.library.paper.Button', {
+        var CustomControl = Control.extend('com.ui5.md.library.paper.Button', {
             metadata: {
-                library: 'com.md.library.paper',
+                library: 'com.ui5.md.library.paper',
 
                 aggregations: {
                     content: { type: 'sap.ui.core.Control', multiple: true, singularName: 'content' }
