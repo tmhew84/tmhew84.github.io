@@ -19,7 +19,6 @@ sap.ui.define(
         };
 
         CustomComponent.prototype.destroy = function () {
-
             UIComponent.prototype.destroy.apply(this);
         };
 

@@ -4,7 +4,16 @@
         "type": "application",
         "i18n": "i18n/Component.properties",
         "title": "{{TITLE}}",
-        "description": "{{DESCRIPTION}}"
+        "description": "{{DESCRIPTION}}",
+        "dataSources": {
+            "comp-northwind": {
+                "uri": "http://services.odata.org/V2/Northwind/Northwind.svc/",
+    			"type": "OData",
+    			"settings": {
+    				"odataVersion": "2.0"
+    			}
+            }
+        }
     },
 
     "sap.ui": {

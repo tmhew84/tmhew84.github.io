@@ -7,8 +7,6 @@
     width="100%"
     displayBlock="true">
 
-    <paper:Button press=".onButtonPressed">
-        <span>This is a paper button</span>
-    </paper:Button>
+    
 
 </mvc:View>
