@@ -7,7 +7,7 @@
         "description": "{{DESCRIPTION}}",
         "dataSources": {
             "northwind": {
-                "uri": "http://services.odata.org/V2/Northwind/Northwind.svc/",
+                "uri": "https://cors-anywhere.herokuapp.com/http://services.odata.org/V2/Northwind/Northwind.svc/",
     			"type": "OData",
     			"settings": {
     				"odataVersion": "2.0"
