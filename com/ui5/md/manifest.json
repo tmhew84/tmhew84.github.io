@@ -6,7 +6,7 @@
         "title": "{{TITLE}}",
         "description": "{{DESCRIPTION}}",
         "dataSources": {
-            "comp-northwind": {
+            "northwind": {
                 "uri": "http://services.odata.org/V2/Northwind/Northwind.svc/",
     			"type": "OData",
     			"settings": {
@@ -39,6 +39,9 @@
     			"settings": {
     				"bundleName": "com.ui5.md.i18n.App"
     			}
+            },
+            "comp.northwind": {
+                "dataSource": "northwind"
             }
         },
 
