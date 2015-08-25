@@ -23,6 +23,7 @@
     "sap.ui5": {
         "dependencies": {
             "libs": {
+                "sap.m": {},
                 "com.ui5.md.library.paper": {}
             }
         },
