@@ -2,19 +2,21 @@
     controllerName="com.ui5.md.controller.App"
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:mvc="sap.ui.core.mvc"
+    xmlns:t="sap.ui.table"
     xmlns:m="sap.m"
     height="100%"
     width="100%"
     displayBlock="true">
 
-    <m:Table items="{comp.northwind>/Employees}">
-        <m:items>
-            <m:ColumnListItem>
-                <m:cells>
-                    <m:Text text="{comp.northwind>LastName}"/>
-                </m:cells>
-            </m:ColumnListItem>
-        </m:items>
-    </m:Table>
+    <t:Table rows="{comp.northwind>/Employees}">
+        <t:columns>
+            <t:Column>
+                <m:Label text="Last name" />
+                <t:template>
+                    <m:Text text="{comp.northwind>LastName}" />
+                </t:template>
+            </t:Column>
+        </t:columns>
+    </t:Table>
 
 </mvc:View>
