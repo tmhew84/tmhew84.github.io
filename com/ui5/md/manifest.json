@@ -24,6 +24,7 @@
         "dependencies": {
             "libs": {
                 "sap.m": {},
+                "sap.ui.table": {},
                 "com.ui5.md.library.paper": {}
             }
         },
