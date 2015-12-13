@@ -1,17 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-        <link rel="import" href="bower_components/iron-icons/iron-icons.html">
-        <link rel="import" href="theme.html">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>high.ly o.pin.ion.at.ed</title>
+        <style>
+            body {
+                background-color: deepskyblue;
+            }
+        </style>
+        <script id="sap-ui-bootstrap"
+            src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+            data-sap-ui-compatVersion="edge"
+            data-sap-ui-bindingSyntax='complex'
+            data-sap-ui-preload="async">
+        </script>
     </head>
-    <body>
-        <content style="padding: 10px;">
-            <content style="text-align: center;">test</content>
-        </content>
+    <body id="content">
+        <script>
+            sap.ui.getCore().attachInit(function () {
+                "use strict";
+
+                console.log("test");
+            });
+        </script>
     </body>
 </html>
