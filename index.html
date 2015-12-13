@@ -6,7 +6,15 @@
         <title>high.ly o.pin.ion.at.ed</title>
         <style>
             body {
-                background-color: deepskyblue;
+                animation: colorChange 50s;
+            }
+
+            @keyframes colorChange {
+                0%   {background: tomato;}
+                25%  {background: gold;}
+                50%  {background: deepskyblue;}
+                75%  {background: limegreen;}
+                100% {background: tomato;}
             }
         </style>
         <script id="sap-ui-bootstrap"
@@ -24,13 +32,11 @@
                 jQuery.sap.registerModulePath("com.tm", "./");
 
                 sap.ui.require([
-                    "com/tm/bower_components/markdown/lib/markdown"
-                ], function () {
-                    sap.ui.require([
-                        "com/tm/bower_components/markdown/lib/markdown"
-                    ], function () {
-
-                    });
+                    "sap/ui/core/ComponentContainer"
+                ], function (ComponentContainer) {
+                    new ComponentContainer({
+                        name: "com.tm"
+                    }).placeAt("content");
                 });
             });
         </script>

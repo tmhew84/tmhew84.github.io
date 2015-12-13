@@ -1,0 +1,33 @@
+{
+    "_version": "1.1.0",
+    "sap.app": {
+        "_version": "1.1.0",
+        "id": "com.tm",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "title": "{{componentTitle}}",
+        "description": "{{componentDescription}}",
+        "applicationVersion": {
+            "version": "1.0.0"
+        }
+    },
+    "sap.ui": {
+        "_version": "1.1.0",
+        "technology": "UI5",
+        "deviceType": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "_version": "1.1.0",
+        "dependencies": {
+            "minUI5Version": "1.30",
+            "libs": {
+                "sap.ui.core": {}
+            }
+        },
+        "rootView": "com.tm.view.Index"
+    }
+}
