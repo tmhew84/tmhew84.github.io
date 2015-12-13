@@ -21,6 +21,14 @@
             sap.ui.getCore().attachInit(function () {
                 "use strict";
 
+                jQuery.sap.registerModulePath("com.tm", "./");
+
+                sap.ui.require([
+                    "com.tm.nodu_modules.markdown.lib.markdown"
+                ], function () {
+                    console.log(markdown);
+                });
+
                 console.log("test");
             });
         </script>
