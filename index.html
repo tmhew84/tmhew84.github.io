@@ -26,10 +26,12 @@
                 sap.ui.require([
                     "com/tm/bower_components/markdown/lib/markdown"
                 ], function () {
-                    console.log(markdown);
-                });
+                    sap.ui.require([
+                        "com/tm/bower_components/markdown/lib/markdown"
+                    ], function () {
 
-                console.log("test");
+                    });
+                });
             });
         </script>
     </body>
