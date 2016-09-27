@@ -44,13 +44,14 @@
                 "controlId": "indexApp",
                 "controlAggregation": "pages"
             },
-            "routes": {
-                "identification": {
+            "routes": [
+                {
+                    "name": "main",
                     "pattern": "main",
                     "target": "main",
                     "parent": "nest:child"
                 }
-            },
+            ],
             "targets": {
                 "main": {
                     "viewName": "Child"

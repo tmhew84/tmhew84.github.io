@@ -52,12 +52,13 @@
                 "controlId": "indexApp",
                 "controlAggregation": "pages"
             },
-            "routes": {
-                "child": {
+            "routes": [
+                {
+                    "name": "child",
                     "pattern": "/parent",
                     "target": "parent"
                 }
-            },
+            ],
             "targets": {
                 "parent": {
                     "viewName": "Parent"
