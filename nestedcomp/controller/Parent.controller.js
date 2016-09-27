@@ -8,7 +8,7 @@ sap.ui.define([
 
     CustomController.prototype.onInit = function () {
         sap.ui.component({
-            name: 'nest.component.child',
+            name: 'nest.comp.child',
             manifestFirst: true,
             async: true
         }).then(oComponent => {
